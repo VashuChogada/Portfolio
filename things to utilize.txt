@@ -1,0 +1,11 @@
+icons: https://github.com/Remix-Design/remixicon#usage
+
+
+
+----Fonts----
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;0,400;0,800;1,300;1,400&display=swap" rel="stylesheet">
+
+can be called with 
+font-family: 'Noto Sans Display', sans-serif;
