@@ -64,9 +64,26 @@ a {
 }
 
 .nav-logo {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     font-weight: 500;
-    color: #482ff7;
+    color: #2200ff;
+}
+
+.about_me {
+    min-height: 500px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.picture_container {
+
+}
+
+.about_me_container {
+    width: 65%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -95,6 +112,10 @@ a {
     .hamburger {
         display: block;
         cursor: pointer;
+    }
+
+    .bar:hover {
+        background-color:#482ff7;
     }
 
     .hamburger.active .bar:nth-child(2) {
