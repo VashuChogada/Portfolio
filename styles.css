@@ -70,7 +70,7 @@ a {
 }
 
 .about_me {
-    min-height: 500px;
+    min-height: 400px;
     width: 100%;
     background-color: antiquewhite;
     display: flex;
@@ -79,11 +79,67 @@ a {
 }
 
 .picture_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    font-size: 1.5rem;
+}
 
+.picture_container img {
+    width: 65%;
+    height: 65%;
+    padding: 0 0 2rem 0;
 }
 
 .about_me_container {
+    display: flex;
     width: 65%;
+    height: 20rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.about_me_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    top: 50px;
+    font-size: 3rem;
+}
+
+
+.about_me_container p {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 50px;
+    font-size: 1.5rem;
+}
+
+.projects {
+    min-height: 500px;
+    width: 100%;
+    background-color: rgb(236, 235, 233);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project_container table {
+    border: 1px solid black;
+    width: 10rem;
+    height: 10rem;
+}
+
+.project_container td {
+    border: 1px solid black;
+}
+
+.project_list {
+    border: 1px solid black;
 }
 
 @media only screen and (max-width: 768px) {
