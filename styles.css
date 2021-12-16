@@ -123,23 +123,54 @@ a {
     min-height: 500px;
     width: 100%;
     background-color: rgb(236, 235, 233);
+    text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .project_container table {
-    border: 1px solid black;
-    width: 10rem;
-    height: 10rem;
+    width: 200px;
+    height: 400px;
 }
 
 .project_container td {
-    border: 1px solid black;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: rgb(183, 255, 248);
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
 }
 
-.project_list {
-    border: 1px solid black;
+.project_container td:hover {
+    background-color: rgb(103, 194, 185);
+}
+
+.project_display {
+    min-height: 450px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+
+.header_project {
+    font-size: 3rem;
+    height: 20%;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+#project_box {
+    padding: 200px;
+    max-height: 80%;
+    border: 2px solid rgb(104, 103, 100);
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 768px) {
