@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     
 </head>
 <body>
@@ -14,13 +15,13 @@
             <a href="#" class="nav-logo">Portfolio</a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About Me</a>
+                    <a href="#about_me" class="nav-link">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Projects</a>
+                    <a href="#projects" class="nav-link">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -59,39 +60,39 @@
 </section>
 
 <section class="projects" id="projects">
-
+    <div class="header_project">Projects</div>
     <div class="project_container">
         <table class="project_list">
             <tr>
-                <td>1</td>
+                <td onclick="genMessage.message()">Message Generator</td>
             </tr>
             <tr>
-                <td>1</td>
+                <td>WIP</td>
             </tr>
             <tr>
-                <td>1</td>
+                <td>WIP</td>
             </tr>
             <tr>
-                <td>1</td>
+                <td>WIP</td>
             </tr>
         </table>
+        <div class="project_display" id="project_display">
+            <div id="project_box"><p>Select a Project from the list</p></div>
+        </div>
     </div>
 
-    <div class="project_display" id="project_display">
-        <div class="header_project">Projects</div>
-        <div id="project_box"><p>Select a Project from the list</p></div>
-    </div>
+
 
 </section>
 
 <section class="contact" id="contact">
 
     <div class="email_container">
-
+        <a href="#"><i class="ri-mail-line"></i></a>
     </div>
 
     <div class="github_container">
-
+        <a href="#"><i class="ri-github-fill"></i></a>
     </div>
 
 </section>
@@ -99,4 +100,5 @@
 </body>
 
 <script src="/nav.js"></script>
+<script src="/projects.js"></script>
 </html>
